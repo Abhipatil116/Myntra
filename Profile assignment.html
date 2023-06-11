@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        section {
+            /* width: 1000px; */
+            height: 500px;
+            background-color:white;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 100px;
+            
+        }
+        nav{
+            background: radial-gradient(rgb(219, 217, 217),rgb(204, 69, 69),rgb(175, 24, 24),rgb(201, 194, 194),white);
+            height: 500px;
+        }
+
+        .box1 {
+            width: 250px;
+            height: 400px;
+            background-color: rgb(113, 113, 196);
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .box2 {
+            width: 250px;
+            height: 400px;
+            background-color: rgb(143, 128, 128);
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 10px;
+
+        }
+
+        .box3 {
+            width: 250px;
+            height: 400px;
+            background-color: aqua;
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .box4 {
+            width: 250px;
+            height: 400px;
+            background-color: blue;
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .img1 {
+            height: 150px;
+            width: 150px;
+            background-color: black;
+            background-image: url("https://th.bing.com/th/id/R.599a495864228dd4cb75de84d9968350?rik=GAE%2b5cosmBIVgQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-KD33uTe8GyE%2fUHB1YPEsrfI%2fAAAAAAAAGv8%2f26jM_2y8rWY%2fs1600%2fThe%2bTiger%2bStrikes%2bAgain%2bWild%2bAnimals239.jpg&ehk=q9wphNhhvUdj1Ocuckh4yzSxncq9%2fJouGnpgcFh2Fqo%3d&risl=&pid=ImgRaw&r=0");
+            border-radius: 100%;
+            background-position: center;
+            background-size: cover;
+            margin-left: 70px;
+
+        }
+
+        .img2 {
+            height: 150px;
+            width: 150px;
+            background-image: url("https://th.bing.com/th/id/R.44cbfb8a1e73d4cf4c19f6ce75562ccd?rik=XoTUG0m5sT40tA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-7ouQIhMKFkU%2fUTDRnXE63BI%2fAAAAAAAAA0c%2fl9MSunzOUtE%2fs1600%2fAnimals%2bpics26.jpeg&ehk=OGc%2bF%2fkfbjiH1zpIPnYUZ5zH3EVaUsfRuSnlbMnVpJk%3d&risl=&pid=ImgRaw&r=0");
+            background-color: black;
+            background-position: center;
+            background-size: cover;
+            border-radius: 100%;
+            margin-left: 70px;
+            padding-top: 10px;
+        }
+
+        .img3 {
+            height: 150px;
+            width: 150px;
+            background-image: url("https://th.bing.com/th/id/R.bffc90df1006f6095e59ee733291a61c?rik=uGmZqI1H%2f4gzig&riu=http%3a%2f%2fwww.kidssearch.com%2fpicsearch%2fimages%2fguinea_pig-pic-1024x1024-d6f5abe.png&ehk=J9BIr1%2bEu6EtJ9yZDZpKJNz%2fI6pRrN%2bZiPT6HGBbF3o%3d&risl=&pid=ImgRaw&r=0");
+            background-color: black;
+            background-position: center;
+            background-size: cover;
+            border-radius: 100%;
+            margin-left: 70px;
+            padding-top: 10px;
+        }
+
+        .img4 {
+            height: 150px;
+            width: 150px;
+            background-image: url("https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?cs=srgb&dl=animal-big-fur-247502.jpg&fm=jpg");
+            background-position: center;
+            background-size: cover;
+            background-color: black;
+            border-radius: 100%;
+            margin-left: 70px;
+            padding-top: 10px;
+        }
+
+        h1 {
+            text-transform: capitalize;
+            margin-left: 125px;
+            margin-top: 10px;
+
+
+        }
+
+        section>.content {
+            padding-top: 20px;
+        }
+
+        a {
+            margin: 18px;
+
+        }
+
+        .box1:hover {
+            background-color: rgb(204, 170, 170);
+            transform: rotatey(40deg);
+            transition: 2s;
+
+        }
+
+        .box2:hover {
+            background-color: rgb(204, 170, 170);
+            transform: scale(1.1);
+            transition: 0.5s;
+
+        }
+
+        .box3:hover {
+            background-color: rgb(204, 170, 170);
+            transform: scale(1.1);
+            transition: 0.5s;
+
+        }
+
+        .box4:hover {
+            background-color: rgb(204, 170, 170);
+            transform: scale(1.1);
+            transition: 0.5s;
+
+        }
+        i{
+            margin-top: 30px;
+            font-size: 30px;
+            margin-left: 10px;
+        }
+        h2{
+            font-size: 50px;
+            text-transform: uppercase;
+            text-align: center;
+            text-shadow: 15px 15px 15px red;
+        }
+        pre{
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <!-- <div class="parda"> -->
+            <nav></nav>
+          <div class="box1">
+            <div class="img1">
+
+            </div>
+            <h1>tiger</h1>
+            <div class="content">
+                <p>The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera. It
+                    is most recognisable for its dark vertical stripes on orange fur with a white underside.</p>
+            </div>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="box2">
+            <div class="img2"></div>
+              <h1>panther</h1>
+            <div class="content">
+                <p>Interesting Panther Facts: Panther is known as black jaguar in Latin America, as black leopard in
+                    Asia and Africa, and as black cougar in North America.</p>
+            </div>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        </div>
+        <div class="box3">
+            <div class="img3">
+
+            </div>
+            <h1>rabbit</h1>
+            <div class="content">
+                <p>Biology Thermoregulation. Rabbits use their large vascularized ears, which aid in thermoregulation,
+                    to keep their body... Respiratory system.</p>
+            </div>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        </div>
+        <div class="box4">
+            <div class="img4">
+
+            </div>
+            <h1>lion</h1>
+            <div class="content">
+                <p>The lion (Panthera leo) is a large cat of the genus Panthera native to Africa and India. It has a
+                    muscular, broad-chested body; short, rounded head; round ears; and a hairy tuft at the end of its
+                    tail.</p>
+            </div>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        </div>
+    <!-- </div> -->
+    </section>
+   
+</body>
+
+</html>
